@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin: 0 auto; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menu-desafio{
+list-style: none;
+padding: 0;
+background-color: coral;
+}
+
+#menu-desafio li{
+    display: inline;
+}
+
+#menu-desafio li a{
+    color:rgb(179, 168, 19);
+    padding: 20px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+#menu-desafio li a:hover{
+   background-color: rgb(16, 133, 133);
+}
